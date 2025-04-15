@@ -9,7 +9,7 @@ st.title("📦 토스 → 퀀텀 주문 변환기 (웹버전)")
 
 # 입력 필드
 sender = st.text_input("송하인", value="전국농가자랑")
-sender_phone = st.text_input("송하인 연락처", value="010-4429-1245")
+sender_phone = st.text_input("송하인 연락처", value="010-2890-0086")
 keyword = st.text_input("키워드 (옵션명)", value="")
 
 uploaded_file = st.file_uploader("토스 주문서 엑셀 업로드", type=["xlsx"])
